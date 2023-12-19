@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan" sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: rgb(120, 115, 115);
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 50px;
+    color: rgb(120, 115, 115);
+}
+
+h4 {
+    font-size: 20px;
+    color: rgb(120, 115, 115);
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+    color: rgb(120, 115, 115);
+}
+
+p {
+    font-size: 16px;
+    color: rgb(233, 121, 121);
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.margin-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(202, 241, 245);
+}
+
