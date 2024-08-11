@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan" sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: rgb(73, 70, 70);
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    font-size: 20px;
+    color: rgb(73, 70, 70);
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+    color: rgb(73, 70, 70);
+}
+
+p {
+    font-size: 16px;
+    color: rgb(73, 70, 70);
+}
+
+body {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    padding: 40px 0;
+}
+/* Header Page */
+
+#header {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    justify-content: space-between;
+    background-color: rgb(181, 183, 183);
+    box-shadow: 0 30px 15px rgba(4, 4, 4, 0.06);
+    opacity: 0.5;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 15%;
+    padding-left: 20px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0px 30px;
+    position: relative;
+}
+
+#navbar li a {
+    color: black;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+
+#navbar li a:hover, #navbar li a.active {
+    color: rgb(5, 122, 5);
+}
+
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    bottom: -4px;
+    background: rgb(5, 122, 5);
+    position: absolute;
+    left: 30px;
+}
+
+/* Home Page*/
+
+#main {
+    background-image: url("img/home_bg.avif");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 8pc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#main h1 {
+    color: rgb(34, 102, 35);
+} 
+
+#main h2 {
+    color: rgb(29, 32, 34);
+}
+
+#main h4 {
+    padding-bottom: 10px;
+}
+
+#main p {
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#main button {
+    background-image: url("img/button.png");
+    background-color: transparent;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    border: 0;
+    padding: 20px 65px;
+    cursor: pointer;
+    width: 550px;
+    height: 65px;
+}   
+
+#main button a {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+#feature {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature img {
+    padding: 20px 10px;
+}
+
+#feature h4 {
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#feature .fe-box:nth-child(1) h4 {
+    background-color: #96e9e9;
+    color: rgb(181, 183, 183);
+}
+
+#feature .fe-box:nth-child(2) h4 {
+    background-color: #f072ca;
+    color: rgb(181, 183, 183);
+}
+
+#feature .fe-box:nth-child(3) h4 {
+    background-color: #a8dd77;
+    color: rgb(181, 183, 183);
+}
+
+#feature .fe-box:nth-child(4) h4 {
+    background-color: #b6e2f0;
+    color: rgb(181, 183, 183);
+}
+
+#feature .fe-box:nth-child(5) h4 {
+    background-color: #c480df;
+    color: rgb(181, 183, 183);
+}
+
+#feature .fe-box:nth-child(6) h4 {
+    background-color: #e2b18a;
+    color: rgb(181, 183, 183);
+}
+
+#feature .fe-box {
+    text-align: center;
+    padding-left: 25px 15px;
+    background-color: #cccbcb;
+    width: 180px;
+    height: 200px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
+    border:rgb(107, 106, 106);
+    border-radius: 4px;
+    margin: 15px;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.2);
+}
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .pro {
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid rgb(107, 106, 106);
+}
+
+#product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
